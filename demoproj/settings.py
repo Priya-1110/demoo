@@ -26,11 +26,16 @@ SECRET_KEY = 'django-insecure-xbnutst%#(d!n-nf@9q()$+_^vjt22phe&yquqzl))x&j)u0i+
 DEBUG = True
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://2b565e1dd3cd40588cc4f9e1382dfa15.vfs.cloud9.eu-west-1.amazonaws.com','https://x23273518firstapp-env1.eba-escsaxpf.eu-west-1.elasticbeanstalk.com','https://172.31.6.250',
+    'https://2b565e1dd3cd40588cc4f9e1382dfa15.vfs.cloud9.eu-west-1.amazonaws.com',
+    'https://x23273518firstapp-env1.eba-escsaxpf.eu-west-1.elasticbeanstalk.com',
+    'https://172.31.6.250',
 ]
 
 
-ALLOWED_HOSTS = ['2b565e1dd3cd40588cc4f9e1382dfa15.vfs.cloud9.eu-west-1.amazonaws.com','x23273518firstapp-env1.eba-escsaxpf.eu-west-1.elasticbeanstalk.com','172.31.6.250']
+ALLOWED_HOSTS = ['2b565e1dd3cd40588cc4f9e1382dfa15.vfs.cloud9.eu-west-1.amazonaws.com',
+                'x23273518firstapp-env1.eba-escsaxpf.eu-west-1.elasticbeanstalk.com',
+                '172.31.6.250'
+]
 
 
 # Application definition
